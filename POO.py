@@ -1,4 +1,4 @@
-# ===================== CLASSE PRINCIPAL =====================
+# ===================== CLASSE PRINCIPAL=====================
 class Conteudo:
     def __init__(self, titulo, genero):
         self.titulo = titulo
@@ -7,7 +7,7 @@ class Conteudo:
     def exibir_info(self):
         print(self.titulo, "-", self.genero)
 
-# ===================== CLASSES FILHAS =====================
+# ===================== CLASSES AGREGADAS =====================
 
 # ----------------------------- 1 ---------------------------
 class Filme(Conteudo):
