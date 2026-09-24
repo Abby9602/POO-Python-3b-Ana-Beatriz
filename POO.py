@@ -1,4 +1,4 @@
-# ===================== CLASSE DAD =====================
+# ===================== CLASSE PRINCIPAL =====================
 class Conteudo:
     def __init__(self, titulo, genero):
         self.titulo = titulo
